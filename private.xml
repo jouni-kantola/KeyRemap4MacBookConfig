@@ -1,0 +1,31 @@
+<!-- [@jouni_kantola] Key bindings config for KeyRemap4MacBook -->
+<?xml version="1.0"?>
+<root>
+	<item>
+		<!-- Caps lock key bound to PC Application Key /w PCKeyboardHack -->
+		<name>Improved Caps lock bindings</name>
+		<item>
+			<name>Left option+Caps lock to Right click</name>
+			<identifier>remap.capslock_bindings_right_click</identifier>
+			<autogen>__KeyToPointingButton__ KeyCode::PC_APPLICATION, ModifierFlag::OPTION_L, PointingButton::RIGHT</autogen>
+		</item>
+		<item>
+			<name>Left command+Caps lock to Forward delete word</name>
+			<identifier>remap.capslock_bindings_forward_delete_word</identifier>
+			<autogen>__KeyToKey__ KeyCode::PC_APPLICATION, ModifierFlag::COMMAND_L, KeyCode::FORWARD_DELETE, ModifierFlag::CONTROL_L</autogen>
+		</item>
+		<item>
+			<name>Caps lock to Left curly brace</name>
+			<identifier>remap.capslock_bindings_left_curly_brace</identifier>
+			<autogen>__KeyToKey__ KeyCode::PC_APPLICATION, KeyCode::KEY_8, ModifierFlag::SHIFT_L | ModifierFlag::OPTION_L</autogen>
+		</item>
+	</item>
+	<item>
+		<name>Improved character bindings</name>
+		<item>
+			<name>Left option+lt to Pipe</name>
+			<identifier>remap.character_bindings_pipe</identifier>
+			<autogen>__KeyToKey__ KeyCode::BACKQUOTE, ModifierFlag::OPTION_L, KeyCode::KEY_7, ModifierFlag::OPTION_L</autogen>
+		</item>
+	</item>
+</root>
