@@ -1,8 +1,8 @@
-<!-- [@jouni_kantola] Key bindings config for KeyRemap4MacBook -->
+<!-- Key bindings config for Karabiner -->
 <?xml version="1.0"?>
 <root>
 	<item>
-		<!-- Caps lock key bound to PC Application Key /w PCKeyboardHack -->
+		<!-- Caps lock key bound to PC Application Key /w Seil (https://pqrs.org/osx/karabiner/seil.html.en) -->
 		<name>Improved Caps lock bindings</name>
 		<item>
 			<name>Left option+Caps lock to Right click</name>
